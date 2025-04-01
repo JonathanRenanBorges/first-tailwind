@@ -21,7 +21,7 @@ Caso queira clonar e rodar o projeto localmente, siga os passos abaixo:
 
 2. Acesse o diretório do projeto:
    ```bash
-   cd meu-projeto-tailwind
+   cd dark-light-toggle
    ```
 
 3. Instale as dependências do Tailwind CSS (se aplicável):
