@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+* {
+    font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fixed-cursor {
+    cursor: pointer;
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}

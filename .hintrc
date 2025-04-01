@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scrollbar-gutter",
+          "scrollbar-gutter: stable",
+          "scrollbar-color",
+          "scrollbar-width"
+        ]
+      }
+    ]
+  }
+}
