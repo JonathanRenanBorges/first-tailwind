@@ -7,8 +7,15 @@
       "default",
       {
         "ignore": [
+<<<<<<< HEAD
           "scrollbar-width",
           "scrollbar-width: none"
+=======
+          "scrollbar-gutter",
+          "scrollbar-gutter: stable",
+          "scrollbar-color",
+          "scrollbar-width"
+>>>>>>> a8fe945b349e3ea24cf7f9b0408f97e8094e008b
         ]
       }
     ]
